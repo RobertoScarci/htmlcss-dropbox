@@ -11,9 +11,9 @@
     justify-content: center;
 }
 
-.flex-j-start{
+.flex-j-between{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
 }
 
 /* Header */
@@ -71,6 +71,7 @@ main{
 
 main h2{
     font-size: 40px;
+    padding-bottom: 1rem;
 }
 
 .tre-pacchetti{
@@ -106,4 +107,15 @@ main h2{
     width: 60%;
     height: 400px;
     background-color: deeppink;
+}
+
+.column-six{
+    width: 100%;
+}
+
+.column-six  div{
+    width: calc(100% / 3);
+    height: 400px;
+    margin: 1rem .5rem;
+    background-color: lightslategray;
 }
