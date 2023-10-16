@@ -12,7 +12,9 @@ header{
 }
 
 .header-fifty{
-    width: 50%;
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
 }
