@@ -5,9 +5,15 @@
     box-sizing: border-box;
 }
 
+/* Display Flex */
 .flex-j-center{
     display: flex;
     justify-content: center;
+}
+
+.flex-j-start{
+    display: flex;
+    justify-content: start;
 }
 
 /* Header */
@@ -51,4 +57,36 @@ header{
     width: 70%;
     height: 400px;
     background-color: green;
+}
+
+/* Main */
+main{
+    max-width: 1500px;
+}
+.container-main{
+    width: 60%;
+    background-color: lightgreen;
+    padding-top: 3rem;
+}
+
+main h2{
+    font-size: 40px;
+}
+
+.tre-pacchetti{
+    width: 100%;
+}
+
+.pacchetto{
+    width: calc(100% / 3);
+    height: 600px;
+    margin: 2rem 1rem 2rem 1rem;
+    background-color: darkgreen;
+}
+
+.singolo-pacchetto{
+    width: 100%;
+    height: 300px;
+    background-color: darkgreen;
+    padding: 2rem 0;
 }
