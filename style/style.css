@@ -116,6 +116,47 @@ main h2{
 .column-six  div{
     width: calc(100% / 3);
     height: 400px;
-    margin: 1rem .5rem;
+    margin: 1rem .3rem;
     background-color: lightslategray;
+}
+
+/* section membri */
+.info{
+    width: 60%;
+    padding: 3rem 0;
+}
+
+.membri{
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.quadrati{
+    width: 33%;
+    height: 400px;
+    background-color: black;
+}
+
+.quadrato-centrale{
+    width: 35%;
+    height: 400px;
+    background-color: darkblue;
+}
+
+.click{
+    width: 100%;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+/* Domande frequenti */
+.question{
+    width: 100%;
+    height: 300px;
+    background-color: beige;
+}
+
+div > h2{
+    font-size: 30px;
+    padding-bottom: 3rem;
 }
