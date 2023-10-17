@@ -199,19 +199,30 @@ button.white{
 
 .column-big img{
     width: 100%;
-    height: 100%;
 }
 
 .column-six{
     width: 100%;
+    height: 100%;
+    margin-bottom: 5rem;
 }
 
-.column-six  div{
+.column-six p{
+    margin-right: .5rem;
+}
+
+.column-six img{
+    width: 100%;
+    height: 200px;
+}
+
+.column-six h3{
+    margin-bottom: 1rem;
+}
+
+.column-six div{
     width: calc(100% / 3);
-    margin: 1rem .3rem;
-    background-color: lightslategray;
 }
-
 
 .checkbox{
     padding-bottom: 2rem;
@@ -247,7 +258,7 @@ main hr{
 /* section membri */
 .info{
     width: 60%;
-    padding: 3rem 0;
+    padding: 6rem 0;
 }
 
 .membri{
