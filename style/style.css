@@ -267,22 +267,84 @@ main hr{
 }
 
 .quadrati{
-    width: 33%;
-    height: 400px;
-    background-color: black;
+    width: calc(100% / 2);
 }
 
+.quadrati img{
+    width: 50%;
+    height: 50%;
+    color: white;
+    margin-left: 4rem;
+    margin-top: 3.5rem;
+}
+
+.quadrato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.quadrato div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
 
 .quadrato-centrale{
     width: 35%;
     height: 400px;
-    background-color: darkblue;
+    background-color: lightgrey;
+}
+
+.quadrato-centrale img{
+    width: 200px;
+}
+
+.quadrato-centrale *{
+    margin: 1rem 1rem;
+
+}
+
+.quadrato-centrale hr{
+    width: 20%;
 }
 
 .click{
     width: 100%;
-    height: 300px;
-    background-color: cornflowerblue;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.darkred{
+    background-color: darkred;
+}
+
+.lightblue{
+    background-color: dodgerblue;
+}
+
+.red{
+    background-color: red;
+}
+
+.celeste{
+    background-color: lightcyan;
+}
+
+.blue{
+    background-color: darkblue;
+}
+
+.yellow{
+    background-color: gold;
 }
 
 /* Domande frequenti */
