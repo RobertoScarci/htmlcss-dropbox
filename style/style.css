@@ -109,7 +109,6 @@ main{
 }
 .container-main{
     width: 60%;
-    background-color: lightgreen;
     padding-top: 10rem;
 }
 
@@ -123,21 +122,50 @@ main h2{
 }
 
 .pacchetto{
-    width: calc(100% / 3);
+    border: 1px solid black;
     padding: 2rem 0;
-    margin: 1rem;
+    display: inline;
+    margin-left: .2rem;
     position: relative;
 }
 
 .pacchetto > *{
-    margin-top: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
 }
 
 .singolo-pacchetto{
     width: 100%;
-    height: 300px;
-    padding: 2rem 0;
+    border: 1px solid black;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
 }
+
+.singolo-pacchetto > .titolo-plan{
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.column-plan *{
+    width: 70%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.singolo-pacchetto p{
+    padding-top: 3rem;
+}
+
+.singolo-pacchetto button{
+    margin-right: 0;
+}
+.column-plan button{
+    width: 60%;
+    padding-left: 3rem;
+}
+
 
 .column{
     width: 100%;
@@ -172,9 +200,27 @@ main h2{
 .tipologia{
     position: absolute;
     top: 0;
-    border: 1px solid black;
+    border: .8px solid black;
     width: 100%;
+    height: 30px;
+    line-height: 1.7;
     padding-left: 6rem;
+    padding-top: 0;
+}
+
+main hr{
+    width: 20%;
+}
+
+.tre-pacchetti button{
+    margin-left: .8rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    width: 85%;
+}
+
+.titolo-plan p{
+    padding-top: 2rem;
 }
 
 
