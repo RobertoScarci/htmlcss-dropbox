@@ -23,6 +23,9 @@ button{
     top: 70px;
 }
 
+ul{
+    list-style-type: none;
+}
 /* Display Flex */
 .flex-j-center{
     display: flex;
@@ -121,15 +124,18 @@ main h2{
 
 .pacchetto{
     width: calc(100% / 3);
-    height: 600px;
-    margin: 2rem 1rem 2rem 1rem;
-    background-color: darkgreen;
+    padding: 2rem 0;
+    margin: 1rem;
+    position: relative;
+}
+
+.pacchetto > *{
+    margin-top: 1.5rem;
 }
 
 .singolo-pacchetto{
     width: 100%;
     height: 300px;
-    background-color: darkgreen;
     padding: 2rem 0;
 }
 
@@ -140,13 +146,11 @@ main h2{
 
 .column-small{
     width: 40%;
-    height: 400px;
     background-color: darkred;
 }
 
 .column-big{
     width: 60%;
-    height: 400px;
     background-color: deeppink;
 }
 
@@ -156,10 +160,23 @@ main h2{
 
 .column-six  div{
     width: calc(100% / 3);
-    height: 400px;
     margin: 1rem .3rem;
     background-color: lightslategray;
 }
+
+
+.checkbox{
+    padding-bottom: 2rem;
+}
+
+.tipologia{
+    position: absolute;
+    top: 0;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 6rem;
+}
+
 
 /* section membri */
 .info{
