@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;700&family=Lato:ital,wght@0,100;1,100;1,300&family=Open+Sans:ital,wght@0,400;1,400;1,600&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;700&family=Lato:ital,wght@0,100;1,100;1,300&family=Open+Sans:wght@600&family=Quicksand&display=swap" rel="stylesheet">
 
 </head>
 
@@ -72,7 +75,7 @@
                 Trova il piano business che fa per te
             </h2>
             <div class="checkbox">
-                <input type="checkbox" name="Fatturazione">Fatturazione Mensile  <input type="checkbox" name="Fatturazione-annuale">Fatturazione Annuale
+                <input type="checkbox" name="Fatturazione"><span>Fatturazione Mensile</span>  <input type="checkbox" name="Fatturazione-annuale"><span>Fatturazione Annuale</span>
             </div>
             <div class="tre-pacchetti flex-j-center rettangolo">
                 <div class="pacchetto">
@@ -90,7 +93,7 @@
                     <button>Prova gratis per 30 giorni</button>
                     <p class="hr">oppure <a href="">acquista ora</a></p>
                     
-                    <h4>Punti Salienti del piano</h4>
+                    <h4 class="bord-top">Punti Salienti del piano</h4>
                     <ul>
                         <li><i class="fa-solid fa-check" style="color: #0056d6;"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
                         <li><i class="fa-solid fa-check" style="color: #0056d6;"></i> Cartelle offline su dispositivi mobilu</li>
@@ -111,7 +114,7 @@
                     <button>Prova gratis per 30 giorni</button>
                     <p>oppure <a href="">acquista ora</a></p>
                     
-                    <h4>Punti Salienti del piano</h4>
+                    <h4 class="bord-top">Punti Salienti del piano</h4>
                     <ul>
                         <li><i class="fa-solid fa-check" style="color: #0056d6;"></i> Nessun limite di spazio per i file</li>
                         <li><i class="fa-solid fa-check" style="color: #0056d6;"></i> Cartelle offline su dispositivi mobili</li>
@@ -135,7 +138,7 @@
                     <button>Contattaci</button>
                     <p>oppure <a href="">acquista ora</a></p>
                     
-                    <h4>Punti Salienti del piano</h4>
+                    <h4 class="bord-top">Punti Salienti del piano</h4>
                     <ul>
                         <li><i class="fa-solid fa-check" style="color: #0056d6;"></i> Cartelle offline su dispositivi mobili</li>
                         <li><i class="fa-solid fa-check" style="color: #0056d6;"></i> Servizio assistenza 24h</li>
@@ -152,6 +155,7 @@
                     <h4>
                         Contatta l'ufficio vendite per i prezzi
                     </h4>
+                    <button>Contatta l'ufficio vendite</button>
                     <span></span>
                     <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
                 </div>
@@ -159,6 +163,8 @@
                     
                 </div>
             </div>
+
+            <!--Immagine al fianco del paragrafo-->
             <div class="column flex-j-center">
                 <div class="column-big">
                     <img src="./img/partner.png" alt="partner-image">
@@ -172,6 +178,7 @@
                 </div>
             </div>
 
+            <!--Sei Paragrafi con immagine-->
             <div class="">
                 <h2>Esegui più operazioni con Dropbox Business</h2>
                 <div class="column-six flex-j-center">
@@ -247,18 +254,18 @@
         <div class="quadrati flex-j-center">
             <div class="quadrato">
                 <div class="green">
-                    <img src="./img/designit.svg" alt="">
+                    <img src="./img/designit.svg" alt="designit logo">
                 </div>
                 <div class="lightblue">
-                    <img src="./img/university_of_florida.svg" alt="">
+                    <img src="./img/university_of_florida.svg" alt="UoF logo">
                 </div>
             </div>
             <div class="quadrato">
                 <div class="darkred">
-                    <img src="./img/arizona_state_university.svg" alt="">
+                    <img src="./img/arizona_state_university.svg" alt="Arizona logo">
                 </div>
                 <div class="red">
-                    <img src="./img/topps.svg" alt="">
+                    <img src="./img/topps.svg" alt="Topps logo">
                 </div>
             </div>
         </div>
@@ -278,26 +285,33 @@
                     <img src="./img/world_bicycle_relief.svg" alt="logo-world-bicycle">
                 </div>
                 <div class="blue">
-                    <img src="./img/hearst_corp.svg" alt="hearts.corp">
+                    <img src="./img/hearst_corp.svg" alt="hearts corp">
                 </div>
             </div>
             <div class="quadrato">
                 <div class="celeste">
-                    <img src="./img/lonely_planet.svg" alt="lonely-planet">
+                    <img src="./img/lonely_planet.svg" alt="lonely planet">
                 </div>
                 <div class="yellow">
-                    <img src="./img/clear_channel.svg" alt="clear-channel">
+                    <img src="./img/clear_channel.svg" alt="clear channel">
                 </div>
             </div>
         </div>
     </section>
-    <div class="click flex-j-center">
-        <div class="container-main">
-            <h2>
-                Porta Dropbox business nella tua azienda
-            </h2>
+
+    <!--Scritta con button-->
+    <section>
+        <div class="click flex-j-center container-main">
+            <div>
+                <h2>
+                    Porta Dropbox business nella tua azienda
+                </h2>
+            </div>
+            <div>
+                <button>Inizia la tua prova gratuita</button>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!--Domande frequenti-->
     <div class="flex-j-center">
@@ -305,12 +319,12 @@
             <h2>Domande Frequenti</h2>
             <hr>
             <div class="question">
-                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fa-solid fa-arrow-down" style="color: #000000;"></i></p>
+                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fa-solid fa-chevron-down"></i></p>
                 <hr>
-                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fa-solid fa-arrow-down" style="color: #000000;"></i></p>
+                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fa-solid fa-chevron-down"></i></p>
                 
                 <hr>
-                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fa-solid fa-arrow-down" style="color: #000000;"></i></p>
+                <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fa-solid fa-chevron-down"></i></p>
                 <hr>
             </div>
         </div>
@@ -329,6 +343,7 @@
                     <li>Piani</li>
                     <li>Sicurezza</li>
                     <li>Funzioni</li>
+                    <li class="grey-word"> <i class="fa-solid fa-globe" style="color: #aaaaaa;"></i>     Italiano        <i class="fa-solid fa-caret-up" style="color: #aaaaaa;"></i></li>
                 </ul>
             </div>
             <div class="column-footer">
